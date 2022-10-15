@@ -56,6 +56,20 @@ export const Nav = () => {
                 justify={'flex-end'}
                 direction={'row'}
                 spacing={6}>
+                   <Link to="/">
+                  <Button
+                    display={{ base: 'none', md: 'inline-flex' }}
+                    fontSize={'sm'}
+                    fontWeight={600}
+                    // color={'white'}
+                    bg={'white.400'}
+                    href={'#'}
+                    _hover={{
+                      bg: 'gray.300',
+                    }}>
+                    Home
+                  </Button>
+                </Link>
                   <Link to="/signin">
                   <Button
                     display={{ base: 'none', md: 'inline-flex' }}
